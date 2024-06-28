@@ -4,11 +4,11 @@ import { useNavigate } from "react-router-dom"
 
 export default function Navbar(){
     const navigate = useNavigate()
-    function handleClickHome(e){
+    function handleClickHome(e: React.MouseEvent<HTMLButtonElement, MouseEvent>){
         e.currentTarget.blur()
         navigate('/')
     }
-    function handleClickSoon(e){
+    function handleClickSoon(e: React.MouseEvent<HTMLButtonElement, MouseEvent>){
         e.currentTarget.blur()
         navigate('/comingSoon')
     }
