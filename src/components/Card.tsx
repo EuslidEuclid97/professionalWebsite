@@ -11,9 +11,9 @@ export default function Card(){
     const handleLinkedIn = () => {
         window.location.href = "http://www.linkedin.com";
     }
-    const handleEmail = () => {
+    /*const handleEmail = () => {
         navigate("/email")
-    }
+    }*/
     return(
             <div className="card">
                 <img className="ZackPic" src="../assets/ZackPic.PNG"></img>
