@@ -7,7 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 export default function Card(){
-    const navigate = useNavigate()
+    //const navigate = useNavigate()
     const handleLinkedIn = () => {
         window.location.href = "http://www.linkedin.com";
     }
