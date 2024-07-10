@@ -11,7 +11,7 @@ export default function Main(){
                 <h1>My name is Zachary Andrews, and I am a recent computer science graduate based in the US!</h1>
             </div>
             <div className="about">
-                <img src="../../public/assets/ZackPic.JPG" className="ZackPic"></img>
+                <img src="../../public/assets/ZackPic.JPG" alt="Picture of Zack" className="ZackPic"></img>
                 <h1>About Me</h1>
                 <h4>
                     I am a Computer Science graduate from the University of Kansas with experience working as a contractor at Capital One, 
