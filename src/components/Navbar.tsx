@@ -12,13 +12,21 @@ export default function Navbar(){
         e.currentTarget.blur()
         navigate('/comingSoon')
     }
+    function handleClickResume(e: React.MouseEvent<HTMLButtonElement, MouseEvent>){
+        e.currentTarget.blur()
+        navigate('/resume')
+    }
+    function handleClickProjects(e: React.MouseEvent<HTMLButtonElement, MouseEvent>){
+        e.currentTarget.blur()
+        navigate('/projects')
+    }
     return(
         <nav>
             <h1>Zachary Andrews</h1>
             <div className="nav-list">
                 <button className="nav-btn" onClick={(e) => {handleClickHome(e)}}>Home</button>
-                <button className="nav-btn" onClick={handleClickSoon}>Projects</button>
-                <button className="nav-btn" onClick={handleClickSoon}>Resume</button>
+                <button className="nav-btn" onClick={(e) => {handleClickProjects(e)}}>Projects</button>
+                <button className="nav-btn" onClick={(e) => {handleClickResume(e)}}>Resume</button>
                 <button className="nav-btn" onClick={handleClickSoon}>Game</button>
             </div>
         </nav>
