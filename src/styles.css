@@ -20,7 +20,7 @@ nav > h1{
    font-family: 'Poppins', Courier, monospace;
    position: absolute;
    left: 30px;
-   bottom: 495px;
+   bottom: 500px;
    animation: fade-down 0.5s;
    color: darkgoldenrod;
 }
@@ -292,3 +292,49 @@ nav > h1{
     left: 43%;
     animation: fade-up 0.5s;
 }
+
+/*Resume page*/
+.resume{
+    animation: fade-up 0.5s;
+}
+
+.employer{
+    display: flex;
+    margin-left: 40%;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    animation: fade-in-scroll linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 400px;
+    /*background-color: darkgoldenrod;*/
+    border-radius: 8%;
+}
+
+.leftText{
+
+}
+
+.rightText{
+    
+}
+
+.image{
+    float: left;
+    border-radius: 25%;
+    max-width: 500px;
+    max-height: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@keyframes fade-in-scroll {
+    from {scale: 0.8; opacity: 0;}
+    to {scale: 1; opacity: 1}
+}
+
+/*Projects page*/
