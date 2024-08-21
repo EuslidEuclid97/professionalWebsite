@@ -20,7 +20,7 @@ nav > h1{
    font-family: 'Poppins', Courier, monospace;
    position: absolute;
    left: 30px;
-   bottom: 520px;
+   bottom: 500px;
    animation: fade-down 0.5s;
    color: darkgoldenrod;
 }
@@ -311,6 +311,8 @@ section{
     animation-timeline: view();
     animation-range-start: cover;
     animation-range-end: 400px;
+    /*background-color: darkgoldenrod;*/
+    border-radius: 8%;
 }
 
 .leftText{
